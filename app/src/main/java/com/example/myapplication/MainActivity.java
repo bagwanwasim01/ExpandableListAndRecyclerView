@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         expandableListView.setAdapter(expandableListAdapter);
         expandableListView.setNestedScrollingEnabled(false);
         //Sets Group indicator to right of Expandable List View
-        expandableListView.setIndicatorBounds(expandableListView.getRight() + 840 , expandableListView.getWidth());
+        expandableListView.setIndicatorBounds(expandableListView.getRight() + 880 , expandableListView.getWidth());
 
 //        expandableListView.setOnGroupExpandListener(groupPosition -> {
 //            Toast.makeText(getApplicationContext(), getString(R.string.production_engineering), Toast.LENGTH_LONG).show();

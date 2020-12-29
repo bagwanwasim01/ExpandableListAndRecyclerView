@@ -24,25 +24,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:textSize="10sp"
+            android:textSize="10.5sp"
             android:textColor="@color/black"
             android:text="@string/completed_n_a" />
 
         <View
             android:layout_width="1dp"
-            android:layout_height="match_parent"
+            android:layout_height="15dp"
             android:id="@+id/view1"
-            android:layout_marginStart="12dp"
-            android:layout_marginTop="4dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="5dp"
             android:background="#C0C0C0" />
 
         <TextView
             android:id="@+id/txtScore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="7dp"
             android:layout_marginTop="5dp"
-            android:textSize="10sp"
+            android:textSize="10.5sp"
             android:textColor="@color/black"
             android:text="@string/score_n_a" />
 
@@ -68,7 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginTop="5dp"
-            android:textSize="10sp"
+            android:textSize="10.5sp"
             android:textColor="@color/black"
             android:text="@string/completion_evidence" />
 
@@ -77,7 +77,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginTop="4dp"
-            android:layout_marginStart="15dp"
+            android:layout_marginStart="12dp"
             android:textSize="11sp"
             android:textColor="@color/material_on_surface_emphasis_medium"
             android:text="Add/View" />

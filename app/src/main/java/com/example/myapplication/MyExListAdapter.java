@@ -112,7 +112,7 @@ public class MyExListAdapter extends BaseExpandableListAdapter {
 
         recyclerView.setHasFixedSize(false);  //can change it's size based on adapter contents
 
-       ((SimpleItemAnimator) recyclerView.getItemAnimator()).setSupportsChangeAnimations(false);
+       ((SimpleItemAnimator) recyclerView.getItemAnimator()).setSupportsChangeAnimations(true);
 
         //below very mandatory to set Layout for recycler view
         //without using this recycler view will not appear
