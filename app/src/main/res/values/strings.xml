@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Expandable List View</string>
+    <string name="Heading">E-LEARNING</string>
+    <string name="not_attempted">Not Attempted</string>
+    <string name="_0_25_hs">0.25 HS</string>
+    <string name="completed_n_a">Completed: N/A</string>
+    <string name="score_n_a">% Score: N/A</string>
+    <string name="completion_evidence">Completion Evidence:</string>
+    <string name="todo">TODO</string>
+    <string-array name="timeTaken">
+        <item>0.25 HS</item>
+        <item>0.25 HS</item>
+        <item>2.0 HS</item>
+        <item>1.5 HS</item>
+        <item>0.5 HS</item>
+    </string-array>
+    <string-array name="production_eng">
+        <item>Production Engineering I</item>
+        <item>Production Engineering II</item>
+        <item>Production Engineering III</item>
+    </string-array>
+    <string-array name="HeadDesc1">
+        <item>Overview of Petrochemicals</item>
+        <item>Oil and Gas Industry Overview</item>
+        <item>"Petroleum Geology and The\n Exploration Process"</item>
+        <item>Production Facilities</item>
+        <item>Fluid Flow and the Production System</item>
+    </string-array>
+</resources>

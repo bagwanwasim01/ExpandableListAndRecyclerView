@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/childLayout"
+    android:orientation="vertical" >
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="17dp"
+            android:id="@+id/imgSchdl"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_outline_calendar_today_24"
+            android:contentDescription="@string/todo">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txtComplete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:text="@string/completed_n_a" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:id="@+id/view1"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:background="#C0C0C0" />
+
+        <TextView
+            android:id="@+id/txtScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:text="@string/score_n_a" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/ev"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_outline_find_in_page_24"
+            android:contentDescription="@string/todo">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txtCE"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:text="@string/completion_evidence" />
+
+        <TextView
+            android:id="@+id/AddView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="15dp"
+            android:textSize="11sp"
+            android:textColor="@color/material_on_surface_emphasis_medium"
+            android:text="Add/View" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</LinearLayout>
